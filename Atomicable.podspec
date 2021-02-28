@@ -2,15 +2,13 @@ Pod::Spec.new do |s|
 
   s.name                = "Atomicable"
   s.version             = "1.0.0"
-  s.summary             = "A collection of handy classes, extensions and global functions to handle being in the background using Swift."
+  s.summary             = "Atomic property wrappers for thread-safety and peace of mind"
   s.screenshot          = "https://github.com/BellAppLab/Atomicable/raw/master/Images/Atomicable.png"
 
   s.description         = <<-DESC
-Backgroundable is a collection of handy classes, extensions and global functions to handle being in the background using Swift.
+Atomicable is a handy property wrapper that makes modifying properties an atomic operation via the use of locks.
 
-It's main focus is to add functionalities to existing `Operation`s and `OperationQueue`s, without adding overheads to the runtime (aka it's fast) nor to the developer (aka there's very little to learn).
-
-It's powerful because it's simple.
+Adapted from and inspired by [Mattt](https://github.com/mattgallagher/CwlUtils).
                    DESC
 
   s.homepage            = "https://github.com/BellAppLab/Atomicable"

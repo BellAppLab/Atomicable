@@ -9,6 +9,10 @@
 
 ![Atomicable](./Images/Atomicable.png)
 
+Atomicable is a handy property wrapper that makes modifying properties an atomic operation via the use of locks.
+
+Adapted from and inspired by [Mattt](https://github.com/mattgallagher/CwlUtils).
+
 ## Specs
 
 * iOS 12+
