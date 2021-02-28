@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.name                = "Atomicable"
   s.version             = "1.0.0"
   s.summary             = "Atomic property wrappers for thread-safety and peace of mind"
-  s.screenshot          = "https://github.com/BellAppLab/Atomicable/raw/master/Images/Atomicable.png"
+  s.screenshot          = "https://github.com/BellAppLab/Atomicable/raw/main/Images/Atomicable.png"
 
   s.description         = <<-DESC
 Atomicable is a handy property wrapper that makes modifying properties an atomic operation via the use of locks.
